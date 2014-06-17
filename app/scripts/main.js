@@ -1,3 +1,3 @@
-$('div.text').on('click', function() {
-  $(this).show()
+$('header').on('click', function () {
+  $(this).parent().removeClass('hidden').siblings().addClass('hidden');
 });
